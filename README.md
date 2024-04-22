@@ -1,3 +1,6 @@
+![CC Graphics 2024_Wildbootstraps](https://github.com/csae-coders-corner/Wild-bootstrapped-t-statistics/assets/148211163/d501bf72-3658-46e2-988e-a8cb2386179e)
+
+
 # Wild-bootstrapped-t-statistics
 A small number of clusters seriously affects the validity of clustered standard error. 
 
