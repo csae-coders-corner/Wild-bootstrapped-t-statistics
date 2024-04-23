@@ -10,7 +10,7 @@ Wild bootstraps are implemented in Stata with the boottest command.
 
 The command saves the p-value of the tested hypothesis in r(p) and plots the empirical distribution of the test-statistic.	. 
 
-The syntax:
+**The Syntax:
 
 First run your normal regression (e.g. reg y treatment). Then you can use the following syntax:
 
