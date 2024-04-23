@@ -17,10 +17,10 @@ First run your normal regression (e.g. reg y treatment). Then you can use the fo
 boottest treatment=0, cluster(cluster1 cluster2) reps()  seed()
 ```
 
-•	treatment=0 is the hypothesis of interest. You can also specify more than one hypothesis and bootstrap Wald-tests of significance.
-•	cluster(cluster1 cluster2) defines the clustering dimensions. The boottest command allows multiple dimensions of clustering and bootstraps using all specified clustering dimensions.
-•	repsspecifies the number of bootstrap replications. 
-•	seed is a random seed for the boottest command. You should always set a seed to ensure that others can replicate your results. 
+* treatment=0 is the hypothesis of interest. You can also specify more than one hypothesis and bootstrap Wald-tests of significance.
+* cluster(cluster1 cluster2) defines the clustering dimensions. The boottest command allows multiple dimensions of clustering and bootstraps using all specified clustering dimensions.
+* repsspecifies the number of bootstrap replications.
+* seed is a random seed for the boottest command. You should always set a seed to ensure that others can replicate your results. 
 
 **Lukas Hensel, St Peter's College, Oxford**
 **25 February 2019**
