@@ -13,7 +13,9 @@ The command saves the p-value of the tested hypothesis in r(p) and plots the emp
 The syntax:
 First run your normal regression (e.g. reg y treatment). Then you can use the following syntax:
 
+```
 boottest treatment=0, cluster(cluster1 cluster2) reps()  seed()
+```
 
 •	treatment=0 is the hypothesis of interest. You can also specify more than one hypothesis and bootstrap Wald-tests of significance.
 •	cluster(cluster1 cluster2) defines the clustering dimensions. The boottest command allows multiple dimensions of clustering and bootstraps using all specified clustering dimensions.
